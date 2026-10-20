@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>поиск пользователей по условию</title>
+</head>
+<body>
+<h1>поиск пользователей по условию</h1>
+<form action="/search" method="POST">
+    <h2>по какому критерию</h2>
+    <select name="filter">
+        <option value="city">город</option>
+        <option value="phone">телефон</option>
+        <option value="profession">профессия</option>
+    </select>
+    <hr>
+    <h2>значение</h2>
+    <input type="text" name="filterValue" placeholder="введите значение">
+    <button type="submit">найти</button>
+</form>
+</body>
+</html>

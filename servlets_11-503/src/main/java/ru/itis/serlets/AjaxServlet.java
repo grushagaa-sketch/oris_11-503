@@ -8,7 +8,4 @@ import java.sql.SQLException;
 
 public class AjaxServlet extends HttpServlet {
 
-    @Override
-
-    }
 }

@@ -14,8 +14,8 @@ import java.sql.SQLOutput;
 @WebServlet("/profile")
 public class ProfileServlet extends HttpServlet {
     private static final String DB_USERNAME = "postgres";
-    private static final String DB_PASSWORD = "gjhfqr102";
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/testdb_11_503";
+    private static final String DB_PASSWORD = "Chucha2011";
+    private static final String DB_URL = "jdbc:postgresql://localhost:5432/testdb";
 
     @Override
     public void init() throws ServletException {
